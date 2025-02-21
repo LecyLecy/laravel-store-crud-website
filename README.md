@@ -23,15 +23,12 @@ Proyek ini adalah backend aplikasi berbasis Laravel 9 yang dikembangkan sebagai 
 
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal:
 
-### **1. Clone Repository**
+### **1. Buka Directory File dan Clone Repository**
 ```sh
 git clone https://github.com/USERNAME/NAMA-REPO.git
 ````
 
-#### **2. Masuk ke Direktori Proyek**
-````sh
-cd NAMA-REPO
-````
+#### **2. Buka Directory project yang telah dibuat**
 
 #### **3. Install Dependencies**
 ````sh
@@ -51,7 +48,7 @@ copy .env.example .env
 ````sh
 php artisan key:generate
 ````
-#### **6. kKonfigurasi Database**
+#### **6. Konfigurasi Database**
 Buka XAMPP Control Panel dan Start Apache dan MySQL.
 
 #### **7. Jalankan Migrasi dan Seeder Database**
@@ -66,7 +63,7 @@ php artisan serve
 
 #### **9. Buka Link Website**
 ````sh
-[php artisan serve](http://127.0.0.1:8000
+http://127.0.0.1:8000
 ````
 
 ---
