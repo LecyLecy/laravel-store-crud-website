@@ -1,3 +1,76 @@
+# Final Project BNCC Backend
+
+Proyek ini adalah backend aplikasi berbasis Laravel 9 yang dikembangkan sebagai tugas akhir di BNCC.
+
+## Fitur
+- Autentikasi pengguna (Login, Register, Logout)
+- Manajemen data dengan CRUD
+- API RESTful menggunakan Laravel API Resources
+- Middleware untuk keamanan akses
+- Validasi input
+- Migrasi dan seeder database
+
+## **Teknologi yang Digunakan**
+- PHP 8.x
+- Laravel 9
+- MySQL
+- Composer
+- XAMPP
+
+---
+
+## **Cara Menjalankan Proyek**
+
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal:
+
+### **1. Clone Repository**
+```sh
+git clone https://github.com/USERNAME/NAMA-REPO.git
+````
+
+#### **2. Masuk ke Direktori Proyek**
+````sh
+cd NAMA-REPO
+````
+
+#### **3. Install Dependencies**
+````sh
+composer install
+````
+
+#### **4. Salin File**
+````sh
+cp .env.example .env
+````
+Jika menggunakan Windows (PowerShell), gunakan:
+````sh
+copy .env.example .env
+````
+
+#### **5. Generate Application Key**
+````sh
+php artisan key:generate
+````
+#### **6. kKonfigurasi Database**
+Buka XAMPP Control Panel dan Start Apache dan MySQL.
+
+#### **7. Jalankan Migrasi dan Seeder Database**
+````sh
+php artisan migrate --seed
+````
+
+#### **8. Jalankan Server Laravel**
+````sh
+php artisan serve
+````
+
+#### **9. Buka Link Website**
+````sh
+[php artisan serve](http://127.0.0.1:8000
+````
+
+---
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
