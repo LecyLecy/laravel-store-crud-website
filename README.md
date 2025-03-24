@@ -25,7 +25,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal:
 
 ### **1. Clone Github pada /xampp/htdocs/**
 ```sh
-git clone https://github.com/USERNAME/NAMA-REPO.git
+git clone https://github.com/LecyLecy/laravel-store-crud-website.git
 ````
 
 #### **2. Buka Directory project yang telah dibuat**
