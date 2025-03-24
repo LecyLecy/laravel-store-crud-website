@@ -51,17 +51,24 @@ php artisan key:generate
 #### **6. Konfigurasi Database**
 Buka XAMPP Control Panel dan Start Apache dan MySQL.
 
-#### **7. Jalankan Migrasi dan Seeder Database**
+#### **7. Buat Database "laravel" di phpMyAdmin**
+
+#### **8. Jalankan Migrasi dan Seeder Database**
 ````sh
 php artisan migrate --seed
 ````
 
-#### **8. Jalankan Server Laravel**
+#### **9. Jalankan Migrasi dan Seeder Database**
 ````sh
-php artisan serve
+php artisan migrate --seed
 ````
 
-#### **9. Buka Link Website**
+#### **10. Buat Storage Untuk Gambar**
+````sh
+php artisan storage:link
+````
+
+#### **11. Buka Link Website**
 ````sh
 http://127.0.0.1:8000
 ````
