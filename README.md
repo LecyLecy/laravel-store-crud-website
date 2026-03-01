@@ -1,6 +1,6 @@
 # Store Website with Backend Focused
 
-Proyek ini adalah backend aplikasi berbasis Laravel 9 yang dikembangkan sebagai tugas akhir di BNCC.
+Proyek ini adalah backend aplikasi berbasis Laravel 9
 
 ## Fitur
 - Autentikasi pengguna (Login, Register, Logout)
