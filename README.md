@@ -1,4 +1,4 @@
-# Final Project BNCC Backend
+# Store Website with Backend Focused
 
 Proyek ini adalah backend aplikasi berbasis Laravel 9 yang dikembangkan sebagai tugas akhir di BNCC.
 
